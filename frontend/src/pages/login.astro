@@ -1,0 +1,18 @@
+---
+import AppLayout from "@/layouts/AppLayout.astro";
+import { AuthScreen } from "@/features/auth/AuthScreen";
+---
+
+<AppLayout title="Entrar | TodoList">
+  <main class="auth-shell">
+    <section class="auth-aside">
+      <div class="auth-aside__badge">TodoList</div>
+      <h2>Trabalho enxuto, prioridade visivel, menos atrito no dia.</h2>
+      <p>
+        Um painel simples para organizar tarefas pessoais sem abrir mao de boa estrutura, autenticacao
+        e consistencia visual.
+      </p>
+    </section>
+    <AuthScreen client:load mode="login" />
+  </main>
+</AppLayout>

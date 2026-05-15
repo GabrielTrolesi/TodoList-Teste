@@ -1,0 +1,10 @@
+---
+import AppLayout from "@/layouts/AppLayout.astro";
+import { TodoBoard } from "@/features/todos/TodoBoard";
+---
+
+<AppLayout title="Minhas Tarefas | TodoList">
+  <main class="board-page">
+    <TodoBoard client:load />
+  </main>
+</AppLayout>
