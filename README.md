@@ -62,7 +62,6 @@ Principais decisoes:
 
 ```text
 .
-├── AGENTS.md
 ├── README.md
 ├── docker-compose.yml
 ├── data/
@@ -252,7 +251,6 @@ npm test
 
 ## Arquivos Importantes
 
-- [AGENTS.md](/Users/akai/Documents/TodoList%20Teste/AGENTS.md)
 - [docker-compose.yml](/Users/akai/Documents/TodoList%20Teste/docker-compose.yml)
 - [application.properties](/Users/akai/Documents/TodoList%20Teste/todolist/src/main/resources/application.properties)
 - [SecurityConfig.kt](/Users/akai/Documents/TodoList%20Teste/todolist/src/main/kotlin/br/com/gabrieltrolesi/todolist/config/SecurityConfig.kt)
